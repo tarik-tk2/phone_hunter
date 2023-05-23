@@ -1,6 +1,17 @@
 <div id="app">
   <h1 class="text-center">Welcome To Phone Hunter</h1>
+
+  <div class="input-group mb-3 w-75 mx-auto">
+    <input type="text" class="form-control" placeholder="Type Your Favourite Phone Name " aria-label="Recipient's username" aria-describedby="button-addon2" id='search-input'>
+    <button class="btn btn-outline-secondary bg-success text-white
+    " type="button"id="search-button">Search</button>
+    
+  </div>
   <div id='display-phone' class="row row-cols-1 row-cols-md-3 g-4">
 
   </div>
+
+   <div id="not-found" class="mt-5 text-center  text-danger d-none"> 
+              <h2 >Your Items Not Found. please Search Again...</h2>
+   </div>
 </div>
